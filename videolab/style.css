@@ -1,0 +1,82 @@
+.headder{
+    height:50px;
+    width: 1000px;
+    border-top: solid rebeccapurple 5px;
+    background-color: black;
+    display: flex;
+    align-items:left;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-left: 100px;
+}
+
+.video{
+    border: solid black;
+    height: 300px;
+    width: 500px;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+
+.title{
+    margin-top: 10px;
+    margin-left: 100px;
+}
+
+.subbtn{
+    margin-top: -70px;
+    margin-left: 400px;
+}
+
+.next{
+border-bottom: solid black;
+margin-left: 680px;
+margin-top: -380px;
+margin-right: 130px;
+}
+
+.vid{
+    height: 0;
+    width: 200px;
+    text-align: left;
+    margin-left: 680px;
+    margin-top: 0px;
+    position: absolute;
+}
+.vid1{
+    height: 0;
+    width: 110px;
+    text-align: left;
+    margin-left: 800px;
+    margin-top: 50px;
+    position: absolute;
+    display: flex;
+}
+.vid2{
+    height: 0;
+    width: 110px;
+    text-align: left;
+    margin-left: 800px;
+    margin-top: 150px;
+    position: absolute;
+    display: flex;
+}
+.vid3{
+    height: 0;
+    width: 110px;
+    text-align: left;
+    margin-left: 800px;
+    margin-top: 250px;
+    position: absolute;
+    display: flex;
+}
+.vid4{
+    height: 0;
+    width: 110px;
+    text-align: left;
+    margin-left: 800px;
+    margin-top: 360px;
+    position: absolute;
+    display: inline;
+}

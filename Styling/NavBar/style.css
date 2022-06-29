@@ -1,0 +1,14 @@
+.nav{
+    height:50px;
+    width: auto;
+    background-color: grey;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding: 5px 20px;
+}
+li{
+    display:inline-flex;
+    justify-content: space-around;
+    padding: 10px 20px;
+}

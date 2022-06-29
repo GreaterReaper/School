@@ -1,0 +1,161 @@
+.header{
+    background-color: lightskyblue;
+    height: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: left;
+    margin-bottom: 10px;
+    margin-top: -10px;
+}
+
+.temp{
+margin-left: 1000px;
+margin-top: -50px;
+visibility: visible;
+}
+
+.city{
+    margin-top: 30px;
+    border-bottom: solid black;
+    width: 1000px;
+    margin-left: 250px;
+}
+
+.forcast{
+    height: 550px;
+    width: 1000px;
+    margin-left: -750px;
+    box-sizing: border-box; padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cookie{
+height: 80px;
+width: 950px;
+border: solid black;
+position: fixed;
+margin-left: 0px;
+margin-top: 500px;
+display: flex;
+justify-content: space-between;
+padding-left: 20px;
+padding-right: 10px;
+padding-top: 20px;
+
+}
+
+.day{
+    height: 480px;
+    width: 200px;
+    margin-left: 0px;
+    margin-top: 10px;
+    padding-right: 10px;
+    display: inline;
+    justify-content: space-between;
+    background-color: lightgrey;
+    text-align: center;
+}
+.cookiebtn{
+    padding: 10px;
+    padding-top: 10px;
+}
+.cookiehd{
+    margin-top: -50px;
+    width: 200px;
+    height: 5px;
+    margin-bottom: 0;
+    margin-left: -100px;
+}
+.cookietxt{
+    width: 450px;
+    margin-left: -300px;
+    font-size: larger;
+}
+
+.farenheit{
+    margin-left: -5000px;
+    margin-top: -5000px;
+    visibility: visible;
+}
+
+#temph1{
+margin-top: 180px;
+margin-right: 100px;
+}
+
+#tempc1{
+    margin-top: -43px;
+    margin-left: 100px;
+}
+
+#temph2{
+    margin-top: 180px;
+    margin-right: 100px;
+    }
+    
+#tempc2{
+    margin-top: -43px;
+    margin-left: 100px;
+    }
+
+#temph3{
+    margin-top: 180px;
+    margin-right: 100px;
+}
+        
+#tempc3{
+    margin-top: -43px;
+    margin-left: 100px;
+}
+
+#temph4{
+    margin-top: 180px;
+    margin-right: 100px;
+}
+        
+#tempc4{
+    margin-top: -43px;
+    margin-left: 100px;
+}
+
+#ftemph1{
+    margin-top: 180px;
+    margin-right: 100px;
+    }
+    
+    #ftempc1{
+        margin-top: -27px;
+        margin-left: 100px;
+    }
+    
+    #ftemph2{
+        margin-top: 180px;
+        margin-right: 100px;
+        }
+        
+    #ftempc2{
+        margin-top: -27px;
+        margin-left: 100px;
+        }
+    
+    #ftemph3{
+        margin-top: 180px;
+        margin-right: 100px;
+    }
+            
+    #ftempc3{
+        margin-top: -27px;
+        margin-left: 100px;
+    }
+    
+    #ftemph4{
+        margin-top: 180px;
+        margin-right: 100px;
+    }
+            
+    #ftempc4{
+        margin-top: -27px;
+        margin-left: 100px;
+    }
+    

@@ -1,0 +1,29 @@
+.container{
+width: 500px;
+margin: 100px;
+margin-left: 200px;
+padding: 0;
+}
+
+.top{
+    margin: inherit;
+    margin-bottom: 0;
+width: inherit;
+height: 100px;
+background-color: #0086b3;
+}
+
+.card{
+    margin: inherit;
+    margin-top: 0;
+width: inherit;
+height: 300px;
+background-color: white;
+}
+
+.sub-content{
+position: absolute;
+top: 130px;
+left: 440px;
+
+}

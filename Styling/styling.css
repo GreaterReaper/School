@@ -1,0 +1,24 @@
+h1{
+background-color: black;
+color: white;
+font-style: normal;
+font-family: cursive;
+}
+
+h2{
+background-color: rebeccapurple;
+color: white;
+text-align: center;
+font-family: cursive;
+
+}
+
+h3{
+background-color: aqua;
+color: rebeccapurple;
+text-align: right;
+font-style: normal;
+text-decoration: underline;
+font-weight: bold;
+font-family: cursive;
+}

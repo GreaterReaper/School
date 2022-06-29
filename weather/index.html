@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Weather</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<div class="header">
+<h1>
+   <span style="color:white;">DojoWeather</span> 
+</h1>
+<p>
+    <button onclick="change(this)" style="color:white; font-size: large; background-color: lightskyblue; border-color: lightskyblue;">Burbank</button> 
+</p>
+<p>
+    <button onclick="change(this)" style="color:white; font-size: large; background-color: lightskyblue; border-color: lightskyblue;">Chicago</button> 
+</p>
+<p>
+    <button onclick="change(this)" style="color:white; font-size: large; background-color: lightskyblue; border-color: lightskyblue;">Dallas</button>
+    
+</p>
+</div>
+
+<div class="city">
+<h2>
+    San Jose
+</h2>
+</div>
+<div class="temp">
+    <p>
+        show temprature in <select name="" onchange="convert(this)">
+        <option>C</option>
+        <option>F</option>
+        </select>
+    </p>
+
+<div class="forcast">
+<div class="day">
+    <h3>
+        Today
+    </h3>
+    <img src="some_rain.png" height="150" width="150" style="border-radius: 50%;">
+    <p>
+        <span style="font-size: larger;">some rain</span>
+    </p>
+    <p id="temph1">
+        <span style="color: red; font-size: x-large;">24°</span>
+    </p>
+    <p id="tempc1">
+        <span style="color: blue; font-size: x-large;">18°</span>
+    </p>
+</div>
+<div class="day">
+    <h3>
+        Tomorrow
+    </h3>
+    <img src="some_sun.png" height="150" width="150" style="border-radius: 50%;">
+    <p>
+        <span style="font-size: larger;">some sun</span>
+    </p>
+    <p id="temph2">
+        <span style="color: red; font-size: x-large;">27°</span>
+    </p>
+    <p id="tempc2">
+        <span style="color: blue; font-size: x-large;">19°</span>
+    </p>
+</div>
+<div class="day">
+    <h3>
+        Friday
+    </h3>
+    <img src="some_clouds.png" height="150" width="150" style="border-radius: 50%;">
+    <p>
+        <span style="font-size: larger;">some clouds</span>
+    </p>
+    <p id="temph3">
+        <span style="color: red; font-size: x-large;">21°</span>
+    </p>
+    <p id="tempc3">
+        <span style="color: blue; font-size: x-large;">16°</span>
+    </p>
+</div>
+<div class="day">
+    <h3>
+        Saturday
+    </h3>
+    <img src="some_sun.png" height="150" width="150" style="border-radius: 50%;">
+    <p>
+        <span style="font-size: larger;">some sun</span>
+    </p>
+    <p id="temph4">
+        <span style="color: red; font-size: x-large;">26°</span>
+    </p>
+    <p id="tempc4">
+        <span style="color: blue; font-size: x-large;">21°</span>
+    </p>
+</div>
+<div class="cookie">
+    <img src="cookie.png" height="50" width="50">
+    <h3>
+       <div class="cookiehd">
+        <h3>
+            Stop! Cookie time
+        </h3>
+       </div>
+    </h3>
+    <div class="cookietxt">
+        <p>
+            We use cookies (sadly not the edible ones) to personalize
+            content and ads, to provide social media features and to
+            analyse our traffic. <span style="color: #0086b3; text-decoration: underline;">Read more...</span>
+        </p>
+    </div>
+    <div class="cookiebtn">
+        <button onclick="hide(this)" style="background-color: #0086b3;">I Accept</button>
+    </div>
+</div>
+</div>
+
+<div class="farenheit">
+<div id="ftempc1">
+    <span style="color: blue; font-size: x-large;">65°</span>
+</div>
+<div id="ftemph1">
+    <span style="color: red; font-size: x-large;">75°</span>
+</div>
+<div id="ftempc2">
+    <span style="color: blue; font-size: x-large;">66°</span>
+</div>
+<div id="ftemph2">
+    <span style="color: red; font-size: x-large;">80°</span>
+</div>
+<div id="ftempc3">
+    <span style="color: blue; font-size: x-large;">61°</span>
+</div>
+<div id="ftemph3">
+    <span style="color: red; font-size: x-large;">69°</span>
+</div>
+<div id="ftempc4">
+    <span style="color: blue; font-size: x-large;">70°</span>
+</div>
+<div id="ftemph4">
+    <span style="color: red; font-size: x-large;">78°</span>
+</div>
+</div>
+<script src="scripts.js"></script>
+</html>
+

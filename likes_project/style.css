@@ -1,0 +1,71 @@
+.header{
+    background-color: black;
+    height:50px;
+    width: 1000px;
+    align-items:left;
+    margin-top: -22px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-left: 100px;
+}
+
+.feed{
+    margin-left: 500px;
+}
+
+.james{
+    border: solid black;
+    height: 300px;
+    width: 150px;
+    margin-left: 100px;
+    justify-content: center;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.niel{
+    border: solid black;
+    height: 150px;
+    width: 500px;
+    margin-left: 450px;
+    margin-top: -300px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nichole{
+    border: solid black;
+    height: 150px;
+    width: 500px;
+    margin-left: 450px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.jim{
+    border: solid black;
+    height: 150px;
+    width: 500px;
+    margin-left: 450px;
+    display: flex;
+    justify-content:space-around;
+}
+
+.nieltxt{
+    margin-left: 500px;
+    width: 270px;
+    margin-top: -430px;
+}
+
+.nicholetxt{
+    margin-left: 500px;
+    margin-top: 130px;
+}
+
+.jimtxt{
+    margin-left: 500px;
+    width: 250px;
+    margin-top: 130px;
+}

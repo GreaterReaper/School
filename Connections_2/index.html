@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>CSS Connections</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <div class="nav">
+        <h1 class="nav-title">Profile</h1>
+            <span style="color: white; font-size: xx-large;">Profile</span>
+            <span style="color: white;">Home</span>
+            <span style="color: white;">My Profile</span>
+            <span style="color: white;">Find Connections</span>
+            <button style="background-color: #0086b3; color: white; border-color: black;">Sign Out</button>
+    </div>
+        <div class="container">
+        <div class="top"></div>
+        <div class="card">
+            <div class="sub-content">
+                <p>
+                    <img src ="user-circle.png" width="100" height="100">
+                   </p>
+                    <h1 id="name">
+                        Jane Doe
+                    </h1>
+                    <p>
+                        <img src ="map-marker.png" width="20" height="20">
+                        Seattle
+                    </p>
+                    <p>
+                        Developer | Engineer | Problem Solver
+                    </p>
+                    <p>
+                        Master of Shadows and the Internet!
+                    </p>
+                    <p>
+                        <img src="gear.png" width="20" height="20">
+                        <span onclick="name(this)" style="color: #0086b3; text-decoration: underline;">edit profile</span>
+                    </p>
+            </div>
+        </div>
+        </div>
+        <div class="requests">
+            <div class="retop">
+                <h2>
+                    <button style="color: black; background-color: white; border-color: black; border-radius: 50%">2</button>
+                    <span style="color: white;text-align: right;">Connection Requests</span>
+                </h2>
+            </div>
+            <div class="recard">
+                <div class="resub-content">
+                    <p id="todd">
+                        <img src ="user-circle.png" width="40" height="40">
+                        Todd E
+                        <button onclick="accept1(this)"><img src ="accept-circle.png" width="20" height="20"></button>
+                        <button onclick="decline1(this)"><img src ="close-circle.png" width="20" height="20"></button>
+                    </p>
+                    <p id="phil">
+                        <img src ="user-circle.png" width="40" height="40">
+                        Phil S
+                       <button onclick="accept2(this)"><img src ="accept-circle.png" width="20" height="20"></button>
+                        <button onclick="decline2(this)"><img src ="close-circle.png" width="20" height="20"></button>
+                    </p>
+                </div>
+            </div>
+            </div>
+        <div class="connections">
+                <div class="contop">
+                    <h2>
+                        <button style="color: black; background-color: white; border-color: black; border-radius: 50%">418</button>
+                        <span style="color: white;text-align: right;">Your Connections</span>
+                    </h2>
+                </div>
+                <div class="concard">
+                    <div class="consub-content" id="con">
+                        <p>
+                            <img src ="user-circle.png" width="40" height="40">
+                            Adrien D
+                        </p>
+                        <p>
+                            <img src ="user-circle.png" width="40" height="40">
+                            Anne J
+                        </p>
+                        <p>
+                            <img src ="user-circle.png" width="40" height="40">
+                            Alayne T
+                        </p>
+                        <p>
+                            <img src ="user-circle.png" width="40" height="40">
+                            Arry Y
+                        </p>
+                        <p>
+                            <span  style="color: #0086b3; text-decoration: underline;">View More</span>
+                        </p>
+                    </div>
+                </div>
+                </div>
+                <div class="education">
+                    <div class="edtop">
+                        <h3>
+                        <span style="color: white; font-size: 20px;">Education</span>
+                    </h3>
+                    </div>
+                    <div class="edcard">
+                        <span style=" border:  solid black;"></span>
+                        <div class="edsub-content">
+                            <h2>
+                                Coding Dojo - Full Stack Bootcamp
+                            </h2>
+                            <p>
+                                <span style="color: grey;">Dec 2019 - Mar 2020</span>
+                            </p>
+                            <p>
+                                Triple black belt in Python, MERN, and C#...
+                            </p>
+                        </div>
+                    </div>
+                    </div>
+                    <script src="scripts.js"></script>
+</html>

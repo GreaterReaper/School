@@ -1,0 +1,27 @@
+Snipit 1
+
+Var: auntContactInfo
+
+Value: Paula, Smith, 1234 Main Street, St.Louis, MO, 12345
+
+Console:
+Paula Smith 1234 Main Street St.Louis MO 12345
+
+Snipit 2
+
+Var: Produce, Frozen
+
+Value: Produce: apples, oranges  Frozen: broccoli, ice cream, hashbrowns
+
+Console:
+broccoli ice cream hashbrowns
+
+
+Snipit 3
+
+Var: movieLibrary
+
+Value: Bambi, Beetlejuice, E.T., Toy Story, Zoro
+
+Console:
+Bambi Beetlejuice E.T. Toystory Zoro
